@@ -5,7 +5,7 @@
 // License text available at https://opensource.org/licenses/MIT
 
 export const METADATA = {
-  title: "Portfolio | Ayush Singh",
+  title: "Portfolio | Rieux",
   description:
     "I bridge the gap between design and development. I take responsibility to craft an aesthetic user experience using modern frontend architecture.",
   siteUrl: "https://ayushsingh.net/",
@@ -13,46 +13,44 @@ export const METADATA = {
 
 export const MENULINKS = [
   {
-    name: "Home",
+    name: "主页",
     ref: "home",
   },
   {
-    name: "Works",
+    name: "作品",
     ref: "works",
   },
   {
-    name: "Skills",
+    name: "技能",
     ref: "skills",
   },
   {
-    name: "Timeline",
+    name: "时间线",
     ref: "timeline",
   },
   {
-    name: "Contact",
+    name: "联系方式",
     ref: "contact",
   },
 ];
 
 export const TYPED_STRINGS = [
-  "I design and develop things",
-  "I develop modern frontend apps",
-  "I design dynamic user experience",
-  "I design and develop motion",
+  "我设计和开发互联网产品",
+  "我热衷于通识教育",
 ];
 
-export const EMAIL = "ayush.singh.xda@gmail.com";
+export const EMAIL = "rieux_shadowcv@163.com";
 
 export const SOCIAL_LINKS = {
-  linkedin: "https://www.linkedin.com/in/alphaayush/",
+  // linkedin: "https://www.linkedin.com/in/alphaayush/",
   github: "https://github.com/ayush013",
-  medium: "https://alphaayush.medium.com/",
-  instagram: "https://www.instagram.com/alphaayush/",
-  facebook: "https://www.facebook.com/ayush013",
-  dribbble: "https://dribbble.com/alphaayush",
-  behance: "https://www.behance.net/alphaayush/",
-  twitter: "https://twitter.com/ayush013",
-  topmate: "https://www.topmate.io/alphaayush/",
+  // medium: "https://alphaayush.medium.com/",
+  // instagram: "https://www.instagram.com/alphaayush/",
+  // facebook: "https://www.facebook.com/ayush013",
+  // dribbble: "https://dribbble.com/alphaayush",
+  // behance: "https://www.behance.net/alphaayush/",
+  // twitter: "https://twitter.com/ayush013",
+  // topmate: "https://www.topmate.io/alphaayush/",
 };
 
 export interface IProject {
