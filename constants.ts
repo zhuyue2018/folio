@@ -36,7 +36,7 @@ export const MENULINKS = [
 
 export const TYPED_STRINGS = [
   "我设计和开发互联网产品",
-  "我热衷于通识教育",
+  "我热爱通识教育",
 ];
 
 export const EMAIL = "rieux_shadowcv@163.com";
