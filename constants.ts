@@ -222,8 +222,8 @@ export const TIMELINE: Array<TimelineNodeV2> = [
     size: ItemSize.SMALL,
     subtitle:
       "好用的通识教育平台",
-    image: "/projects/Lwwad.png",
-    slideImage: "/projects/Lwwad.png",
+    image: "/timeline/Lwwad-sm.png",
+    slideImage: "/timeline/Lwwad.png",
     shouldDrawLine: true,
     alignment: Branch.LEFT,
   },
