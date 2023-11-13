@@ -44,7 +44,7 @@ const Footer = () => {
           classes="ml-3"
           type={ButtonTypes.WHITE}
           name="Let's Talk"
-          href={SOCIAL_LINKS.topmate}
+          href={SOCIAL_LINKS.github}
           otherProps={{
             target: "_blank",
             rel: "noreferrer",

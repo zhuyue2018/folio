@@ -43,14 +43,14 @@ export const EMAIL = "rieux_shadowcv@163.com";
 
 export const SOCIAL_LINKS = {
   // linkedin: "https://www.linkedin.com/in/alphaayush/",
-  github: "https://github.com/ayush013",
+  github: "https://github.com/zhuyue2018",
   // medium: "https://alphaayush.medium.com/",
   // instagram: "https://www.instagram.com/alphaayush/",
   // facebook: "https://www.facebook.com/ayush013",
   // dribbble: "https://dribbble.com/alphaayush",
   // behance: "https://www.behance.net/alphaayush/",
   // twitter: "https://twitter.com/ayush013",
-  // topmate: "https://www.topmate.io/alphaayush/",
+  topmate: "https://www.topmate.io/alphaayush/",
 };
 
 export interface IProject {
