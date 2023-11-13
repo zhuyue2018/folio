@@ -49,7 +49,7 @@ const SkillsSection = () => {
   const renderSectionTitle = (): React.ReactNode => (
     <div className="flex flex-col">
       <p className="section-title-sm seq">SKILLS</p>
-      <h1 className="section-heading seq mt-2">My Skills</h1>
+      <h1 className="section-heading seq mt-2">我的技能</h1>
       <h2 className="text-2xl md:max-w-2xl w-full seq mt-2">
         I like to take responsibility to craft aesthetic user experience using
         modern frontend architecture.{" "}
