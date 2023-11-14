@@ -69,14 +69,14 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        我是一个对软件开发有极大热情全栈工程师。{" "}
+        我是一个全栈软件工程师，也是一个教育爱好者，
       </span>
       <span
         className={`about-2 leading-tight ${
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        我志在创造一个可以给大家带来帮助的通识教育平台。
+        我的目标是创造一个可以给大家带来帮助的通识教育平台。
       </span>
     </h1>
   );
