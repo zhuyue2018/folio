@@ -14,24 +14,24 @@ export default function Page() {
     <div className="flex flex-col items-center">
       <div className="w-96">
         <p>规则：</p>
+        <br/>
+        <p>包板：</p>
         <p>
-          大窑: 包板 1-5cm24元，6-8cm27元;9-10cm32 元;11-12cm37元
-          超出部分每公分加 2.5元;窑板尺寸:50x55cm
+          大窑(窑板尺寸:50x55cm)：1-5cm24元，6-8cm27元;9-10cm32 元;11-12cm37元，超出部分每公分加2.5元;
         </p>
         <p>
-          小窑:包板:1-5cm22元，6-8cm24元;9-10cm27元;11-12cm32元
-          超出部分每公分加2元;窑板尺寸:50x48cm
+          小窑(窑板尺寸:50x48cm):包板:1-5cm22元，6-8cm24元;9-10cm27元;11-12cm32元，超出部分每公分加2元;
         </p>
-        <p>单烧价格:</p>
-        <p>马克杯.咖啡杯.碗.壶 3元</p>
-        <p>小号杯子1元.(按大小收费)</p>
-        <p>盘子:</p>
+        <br/>
+        <p>单烧：</p>
+        <p>马克杯 咖啡杯 碗 壶 3元。</p>
+        <p>小号杯子1元。(按大小收费)</p>
+        <p>盘子：</p>
         <p>
-          15 公分以内3元 16-20 公分 5-8元 21-30 公分 10-15 元大于 35
-          公分按包板收费
+          15公分以内3元；16-20公分5-8元；21-30公分10-15元；大于35公分按包板收费。
         </p>
-        <p>大瓷板:</p>
-        <p>40-55x60cm35 元,60x60cm60 元 长宽都超出 60cm 按1块钱1公分</p>
+        <p>大瓷板：</p>
+        <p>40-55x60cm35元,60x60cm60元 长宽都超出60cm按1块钱1公分。</p>
       </div>
       <div className=" py-4">
         <label>选择类型：</label>
@@ -91,6 +91,7 @@ export default function Page() {
         </>
       )}
       <button
+        className=" border border-collapse"
         onClick={() => {
           if (typeRef.current.value == 0) {
             setRes(byHeight(heightRef.current.value, bigRef.current.value));
